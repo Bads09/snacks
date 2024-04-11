@@ -1,0 +1,19 @@
+
+.portada {
+ 
+    background-color: orange; 
+    text-align: center; 
+    padding: 70px 20px; 
+    font-family: "Protest Strike", sans-serif;
+   
+  }
+  
+  .descripcion {
+    color: black; 
+    font-size: 40px; 
+  }
+  
+  .logo
+  {
+    width: 600px;
+  }

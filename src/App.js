@@ -1,26 +1,20 @@
-import logo from './logo.svg';
+
 
 import './App.css';
 import Kary from './kary.png';
+import Alimentos from "./screens/alimentos";
+import Pedido from "./screens/pedido";
+import NavBar from "./components/NavBar";
+import Footer from "./components/Footer"
+import Header from "./components/Header";
+
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <nav className="navbar">
-        <ul className="menu">
-          <li><a href="#">Alimentos</a></li>
-          <li><a href="#">Pedido</a></li>
-          
-        </ul>
-        
-      </nav>
-     
-        <div className="portada">
-        <img className="logo" src={Kary}/>
-        <p className="descripcion">Contamos con excelente calidad y servicio en nuestros productos.</p>
-      
-      </div>
-      </header>
+      <NavBar/>
+      <Header/>
+      <Footer/>
     </div>
   );
 }

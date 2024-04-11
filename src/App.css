@@ -29,7 +29,7 @@
  
   background-color: orange; 
   text-align: center; 
-  padding: 70px 20px; 
+  padding: 45px 20px; 
   font-family: "Protest Strike", sans-serif;
  
 }
@@ -42,4 +42,8 @@
 .logo
 {
   width: 600px;
+}
+
+.company{
+  justify-content: center;
 }
